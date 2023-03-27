@@ -9,8 +9,9 @@ of the [*k*-mer GWAS](https://github.com/voichek/kmersGWAS) suite of tools.
 
 ## Dependencies
 
-`kmers_ld` requires the `khash.h` header file from the [htslib] library for functioning
-Make sure you have this library installed before compiling the program.
+`kmers_ld` requires the `khash.h` header file from the
+[htslib](https://github.com/samtools/htslib) library for functioning. Make sure
+you have this library installed before compiling the program.
 
 ## Software compilation
 
@@ -28,7 +29,7 @@ with the output being written to stdout.
 
 ## Testing
 
-The software can be tested by running `make test`. The file `pod_color_blbr_pav_table.txt`
+The software can be tested by running `make test`. The file `pav_test.txt`
 shows what a typicaly input PAV table should look like.
 
 # Citation
